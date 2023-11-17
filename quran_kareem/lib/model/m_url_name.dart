@@ -1,3 +1,4 @@
+//url for web view
 final class MUrlName {
   static const quran = "https://equran.me/browse.html";
   static const tafser = "https://ar.assabile.com/read-quran/";
