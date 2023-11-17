@@ -65,13 +65,6 @@ class CReminder extends StatelessWidget {
         ),
       ]),
     );
-    //   WImageReminder(
-    //       backGround: Color.fromARGB(121, 222, 237, 64),
-    //       foreGround: Colors.black,
-    //       icon: Icons.nightlight_outlined,
-    //       label: MNames.remindNIght,
-    //       url: MUrlName.reminderNight,
-    //       image: NetworkImage(MRemindImage.mRemindNightImage))
-    // ]);
+   
   }
 }
