@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-
+//this code to view the url view
 class VWebView extends StatelessWidget {
   VWebView({super.key, required this.url});
   final String url;
