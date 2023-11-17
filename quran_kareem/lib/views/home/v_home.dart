@@ -4,7 +4,7 @@ import 'package:quran_kareem/Widget/w_buttom_bar.dart';
 import 'package:quran_kareem/controller/c_reminder.dart';
 import 'package:quran_kareem/model/m_url_name.dart';
 import 'package:quran_kareem/views/web_view/v_web.dart';
-
+//home page
 class VHome extends StatefulWidget {
   const VHome({super.key});
 
@@ -22,6 +22,7 @@ class _VHomeState extends State<VHome> {
   }
 
   int value = 0;
+  // pages
   final List<Widget> pages = [
     VWebView(
       url: MUrlName.quran,
@@ -37,6 +38,7 @@ class _VHomeState extends State<VHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // app bar
       appBar: const WAppBar(),
       bottomNavigationBar: WButtomBar(
         value: value,
@@ -53,6 +55,7 @@ class _VHomeState extends State<VHome> {
           setState(() {});
         },
       ),
+      //page view
       body: PageView(
         controller: controller,
         onPageChanged: (value) {
