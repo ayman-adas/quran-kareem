@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:motion_tab_bar_v2/motion-tab-bar.dart';
 import 'package:motion_tab_bar_v2/motion-tab-controller.dart';
 import 'package:quran_kareem/model/m_names.dart';
-
+//buttom bar background color and icons
 class WButtomBar extends StatelessWidget {
   const WButtomBar(
       {super.key, required this.value, required this.callBack(value)});
