@@ -1,3 +1,4 @@
+//names for app
 class MNames {
   static const String appName = "اية و قيمة";
   static const String quran = "القران الكريم";
