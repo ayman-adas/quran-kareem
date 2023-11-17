@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quran_kareem/views/web_view/v_web.dart';
-
+//reeminder buttom this color and text
 class WReminderButton extends StatelessWidget {
   const WReminderButton(
       {super.key,
